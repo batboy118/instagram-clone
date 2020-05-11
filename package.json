@@ -1,0 +1,29 @@
+{
+  "name": "instagram-clone",
+  "version": "1.0.0",
+  "description": "Instagram clone with Express_Prisma_React_React-native",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/batboy118/instagram-clone.git"
+  },
+  "author": "batboy118",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/batboy118/instagram-clone/issues"
+  },
+  "homepage": "https://github.com/batboy118/instagram-clone#readme",
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "dotenv": "^8.2.0",
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}
